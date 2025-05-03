@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Instructions</h2>
+            <p>1. Answer all the questions.</p>
+            <p>2. Navigate using <strong>Next</strong> and <strong>Previous</strong>.</p>
+            <p>3. Click <strong>Submit</strong> to see your score and time taken.</p>
+        </aside>
+        
+        <div class="main-content">
+            <div class="welcome-container">
+                <h1>Welcome to the Quiz Application!</h1>
+                <input id="name" type="text" placeholder="Enter your name">
+                <button id="start">Start Quiz</button>
+            </div>
+
+            <div class="quiz-container" style="display: none;">
+                <h2 id="greeting"></h2>
+                <p id="timer">Time: 0s</p>
+                <h3 id="question"></h3>
+                <ul id="options"></ul>
+                <div class="nav-buttons">
+                    <button id="prev">Previous</button>
+                    <button id="next">Next</button>
+                </div>
+                <button id="submit">Submit</button>
+                <p id="result"></p>
+            </div>
+
+            <div class="result-container" style="display: none;">
+                <h1 id="final-result"></h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
