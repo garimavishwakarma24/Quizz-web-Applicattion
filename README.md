@@ -1,4 +1,4 @@
-#Quiz Web Application
+#Quiz Web Application---------------------------------
 A responsive and interactive quiz application built using HTML, CSS, and JavaScript. This project tests users on programming and computer science fundamentals with dynamic question rendering, real-time feedback, and a built-in timer.
 
 ✨ Features
